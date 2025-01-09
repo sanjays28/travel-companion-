@@ -1,0 +1,31 @@
+# Travel Management Component Environment Configuration
+
+# Node.js and NPM verified
+NODE_VERSION=18.19.1
+NPM_VERSION=9.2.0
+
+# Development Tools
+GIT_VERSION=2.43.0
+ESLINT_INSTALLED=true
+
+# Required Technologies
+REACT=true
+WEBPACK=true
+JEST=true
+CYPRESS=true
+
+# UI Technologies
+TAILWIND=true
+
+# Additional Tools
+VSCODE=recommended
+GOOGLE_MAPS_API=required
+
+# Build Configuration
+BUILD_SYSTEM=webpack
+TEST_FRAMEWORK=jest,cypress
+CI_CD=github_actions
+
+# Storage Configuration
+STORAGE_TYPE=local_json
+PWA_ENABLED=true
